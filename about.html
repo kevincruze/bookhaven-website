@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset= "UTF-8" />
+        <meta name= "viewport" content = "width = device-width, initial-scale = 1.0" />
+        <title> Book Haven Bookstore | About us </title>
+        <link rel = "stylesheet" href ="css/styles.css" />
+     </head>
+     
+    <body>
+        <header>
+            <div class ="logo">
+                <img src = "images/Client3_LogoPalette2_3F5461.png" alt = "Book Haven Logo" />
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html" class = "active">About Us</a></li>
+                    <li><a href="staff-picks.html">Staff Picks</a></li>
+                </ul>
+            </nav>
+
+            <button class = "hamburger-icon" aria-label = "Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </header>
+
+        <main>
+            <section id = "about-header">
+                <h1>About Us</h1>
+                <p>
+                    Book Haven Bookstore is a local treasure that celebrates knowledge and fosters a vibran literary community. We carry a diverse selection of books, magazines, journals, and stationeries. We host regular events to connect readers with local authors and other avid readers.
+                </p>
+
+            </section>
+
+            <section id = "community-events">
+                <div class = "block">
+                    <h2>Community Involvement</h2>
+                    <p>
+                        We partner with local schools, libraries, and reading groups to host book drives, author talks, free writing workshops, and various other community events.
+                    </p>
+                    <button class = "learn-more">Learn More</button>
+                </div>
+                <div class = "block">
+                    <h2>Events & Collaborations</h2>
+                    <p>
+                        Upcoming author signings, peotry slams, and community book fairs - see our calendar for dates and details.
+                    </p>
+                    <button class = "learn-more">Learn More</button>
+                </div>
+            </section>
+
+            <section id = "contact">
+                <h2>Contact Us</h2>
+                <form id = "contact-form">
+                    <label for = "name">Name</label>
+                    <input type="text" id="name" name="name" required />
+
+                    <label for = "email">Email</label>
+                    <input type="email" id="email" name="email" required />
+
+                    <label for = "message">Message</label>
+                    <textarea id="message" name="name" rows ="4" required></textarea>
+
+                    <button type = "submit">Submit</button>
+                </form>
+                <p class = "storage-note">*Your message will be saved to web storage.</p>
+
+                <ul id = "hours">
+                    <li><strong>Monday - Friday:</strong> 9 A.M. - 8 P.M</li>
+                    <li><strong>Saturday:</strong> 10 A.M. - 6 P.M</li>
+                    <li><strong>Sunday:</strong> 11 A.M. - 5 P.M</li>
+                </ul>
+            </section>
+        </main>
+
+
+
+        <footer>
+            <section id = "newsletter">
+                <h3>Subscribe To Our Newsletter!</h3>
+                <form id="newsletter-form">
+                    <input
+                    type = "email"
+                    name = "email"
+                    placeholder = "Enter your email"
+                    required
+                    />
+                    <button type = "submit">Subscribe</button>
+                </form>
+            </section>
+
+            <div id ="social-media-icons">
+                <a href = "#" aria-label = "Facebook">
+                    <img src = "images/facebook.png" alt = "Facebook" />
+                </a>
+                <a href="#" aria-label = "Instagram">
+                    <img src = "images/instagram.jpg" alt = "Instagram" />
+                </a>
+                <a href ="#" aria-label = "X">
+                    <img src = "images/X.jpg" alt = "X" />
+                </a>
+            </div>
+
+            <nav id = "footer-nav">
+                <a href = "index.html">Home</a>
+                <a href = "gallery.html">Gallery</a>
+                <a href = "about.html">About Us</a>
+                <a href = "staff-picks.html">Staff Picks</a>
+            </nav>
+         </footer>
+
+    </body>
