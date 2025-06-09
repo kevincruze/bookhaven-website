@@ -63,7 +63,6 @@ header nav ul li a.active {
 }
 
 
-
 .view-cart-button {
     background-color: #3F5461;
     color: #fff;
@@ -74,9 +73,6 @@ header nav ul li a.active {
     cursor: pointer;
     margin-left: 8px;
 }
-
-
-
 
 
 main {
@@ -131,6 +127,7 @@ main {
 
 
 
+
 #gallery-title {
     padding: 16x;
     background-color: #f2f2f2;
@@ -177,6 +174,7 @@ main {
     cursor: pointer;
     font-size: 0.9;
 }
+
 
 
 
@@ -276,6 +274,78 @@ main {
 }
 #hours li {
     margin-bottom: 10px;
+}
+
+
+
+
+#staff-picks-header {
+    text-align: center;
+}
+#staff-picks-header h1 {
+    font-size: 1.4rem;
+    color: #3f5461;
+}
+
+#staff-picks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 16px;
+    
+}
+.staff-cards{
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+}
+.staff-cards .book-cover {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+.staff-photo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 12px;
+}
+.staff-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #3f5461;
+}
+.staff-cards h3 {
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    color: #131c26;
+}
+.staff-name {
+    font-style: italic;
+    margin-bottom: 8px;
+    color: #555;
+}
+.recommendation-text {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+@media (min-width: 600px) {
+    #staff-picks {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .staff-card{
+        width: calc(50% - 10px);
+    }
 }
 
 
