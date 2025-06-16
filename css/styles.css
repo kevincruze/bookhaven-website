@@ -226,6 +226,11 @@ main {
     gap: 16px;
     padding: 16px;
 }
+@media (max-width: 600px) {
+  #items {
+    grid-template-columns: 1fr;
+  }
+}
 .item-card {
     display: flex;
     flex-direction: column;
